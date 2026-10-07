@@ -1,0 +1,1 @@
+[+]  changed current to 2.4A
