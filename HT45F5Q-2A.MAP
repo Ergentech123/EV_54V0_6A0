@@ -1,0 +1,468 @@
+
+Linker Version 8.7.7.220718
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\TIMER.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\STARTUP1.OBJ
+Input Object File: e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\VARIABLE.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_srsc.lib
+Input Library File: E:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\cal2-pa0.lib
+
+
+     Start     End      Length     Class    AvgIns    Name
+     0000h     0000h    0001h      CODE               @code (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     0001h     0001h    0001h      CODE               @start (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     0002h     0005h    0004h      CODE               itofaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0006h     000bh    0006h      CODE               _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     000ch     000ch    0001h      CODE               @ISR_T0_code (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     000dh     003eh    0032h      CODE               _builtin_holtek_ftdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     003fh     0073h    0035h      CODE               _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0074h     009eh    002bh      CODE               @builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     009fh     00cdh    002fh      CODE               _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ceh     00e3h    0016h      CODE               @builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00e4h     00efh    000ch      CODE               _EraseEEPROM (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     00f0h     00fdh    000eh      CODE               _ReadEEPROM (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     0100h     010ch    000dh      CODE               @crom (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\VARIABLE.OBJ)
+     010dh     0137h    002bh      CODE               _main (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     0138h     0153h    001ch      CODE               _WriteEEPROM (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     0154h     0163h    0010h      CODE               _EEP_VAL_Write (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     0164h     0188h    0025h      CODE               _initial (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     0189h     0228h    00a0h      CODE               _initEEPROMset (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     0229h     0260h    0038h      CODE               _initCharger (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     0261h     026bh    000bh      CODE               _initAdc (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     026ch     026fh    0004h      CODE               _initRelay (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     0270h     027ah    000bh      CODE               _initLed (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     027bh     0281h    0007h      CODE               _initTime0 (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     0282h     028dh    000ch      CODE               _initCalb (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     028eh     02fdh    0070h      CODE               _GET_IB (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     02feh     036eh    0071h      CODE               _GET_VB (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     036fh     03a2h    0034h      CODE               _CK_IN_C_Chn (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     03a3h     03f1h    004fh      CODE               _CK_IN_V_Chn (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     03f2h     041ah    0029h      CODE               _PH_Check (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     041bh     0428h    000eh      CODE               _PH_str_TC (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     0429h     0436h    000eh      CODE               _PH_str_CC (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     0437h     0463h    002dh      CODE               _PH_run_CC (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     0464h     0472h    000fh      CODE               _PH_Run (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     0473h     0480h    000eh      CODE               _PH_str_CV (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     0481h     04adh    002dh      CODE               _PH_Start (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     04aeh     04d7h    002ah      CODE               _ADCData (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     04d8h     0502h    002bh      CODE               _ADC10Data3 (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     0503h     0514h    0012h      CODE               _ledMode (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     0515h     0525h    0011h      CODE               _relayMode (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     0526h     06beh    0199h      CODE               _caliber (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     06bfh     06c7h    0009h      CODE               _Delayus (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\TIMER.OBJ)
+     06c8h     06e2h    001bh      CODE               _Delayms (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\TIMER.OBJ)
+     06e3h     06ech    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     06edh     0711h    0025h      CODE               _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0712h     0754h    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0755h     075bh    0007h      CODE               _CROM2PROM (CROM2PROM)
+     0080h     0093h    0014h      DATA     5.6       @HCCINIT0 (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     0094h     0094h    0001h      DATA     63        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0095h     0095h    0001h      DATA     80        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0096h     0096h    0001h      DATA     66        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0097h     0097h    0001h      DATA     51        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0098h     0098h    0001h      DATA     47        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0099h     0099h    0001h      DATA     19        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     009ah     009ah    0001h      DATA     19        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     009bh     009bh    0001h      DATA     12        @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     009ch     00a1h    0006h      DATA     34        ftdata1 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00a2h     00a8h    0007h      DATA     11.429    ftdata2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00a9h     00abh    0003h      DATA     2.6667    dtdata (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Local Sections
+
+     Start     End      Length     Class    AvgIns    Name
+     00c4h     00c4h    0000h      LOCAL    0         @dummy (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     00c4h     00c4h    0000h      LOCAL    0         _main (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _initial (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00ach     00ach    0000h      LOCAL    0         _initLed (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _initRelay (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _initCharger (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00ach     00ach    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ach     00ach    0000h      LOCAL    0         _initTime0 (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00adh     00adh    0000h      LOCAL    0         _initEEPROMset (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00ach     00ach    0001h      LOCAL    1         _ReadEEPROM (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _builtin_holtek_uitof (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ach     00ach    0000h      LOCAL    0         _builtin_holtek_ftdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ach     00ach    0000h      LOCAL    0         _builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ach     00ach    0000h      LOCAL    0         _initAdc (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _initCalb (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\INIT.OBJ)
+     00adh     00b2h    0006h      LOCAL    9.6667    _Delayms (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\TIMER.OBJ)
+     00ach     00ach    0001h      LOCAL    1         _Delayus (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\TIMER.OBJ)
+     00c0h     00c3h    0004h      LOCAL    2         _caliber (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     00b3h     00b3h    0001h      LOCAL    1         _relayMode (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     00bah     00bfh    0006h      LOCAL    2.6667    _ADC10Data3 (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     00ach     00ach    0001h      LOCAL    2         _ADCData (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     00ach     00b9h    000eh      LOCAL    4.7143    _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00c0h     00c0h    0000h      LOCAL    0         _GET_VB (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00ach     00ach    0000h      LOCAL    0         _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ach     00ach    0000h      LOCAL    0         _builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00c0h     00c0h    0000h      LOCAL    0         _GET_IB (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00ach     00b3h    0008h      LOCAL    5.125     _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00b5h     00b9h    0005h      LOCAL    5.6       _EEP_VAL_Write (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     00ach     00b4h    0009h      LOCAL    1.8889    _WriteEEPROM (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     00c0h     00c1h    0002h      LOCAL    2         _CK_IN_C_Chn (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00c0h     00c1h    0002h      LOCAL    4         _CK_IN_V_Chn (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00c4h     00c7h    0004h      LOCAL    1         _PH_Run (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00c0h     00c3h    0004h      LOCAL    1.5       _PH_run_CC (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00b7h     00bah    0004h      LOCAL    3         _PH_Start (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00b3h     00b6h    0004h      LOCAL    1         _PH_str_CV (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00b3h     00b6h    0004h      LOCAL    1         _PH_str_TC (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00b3h     00b6h    0004h      LOCAL    1         _PH_str_CC (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+
+     Indepentent Local Sections
+
+     Start     End      Length     Class    AvgIns    Name
+     00ach     00ach    0001h      ILOCAL   1         _EraseEEPROM (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\EEPROM.OBJ)
+     00ach     00afh    0004h      ILOCAL   2         _PH_Check (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\PHASE.OBJ)
+     00ach     00afh    0004h      ILOCAL   1         _ledMode (e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\SUB.OBJ)
+     00ach     00ach    0000h      ILOCAL   0         _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00ach     00ach    0000h      ILOCAL   0         _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     04d8h              _ADC10Data3
+     04aeh              _ADCData
+     0104h              _CC_CALIB_DIG
+     0108h              _CC_OUT_DIG
+     036fh              _CK_IN_C_Chn
+     03a3h              _CK_IN_V_Chn
+     0102h              _CV_OUT_DIG
+     0756h              _Crom2Prom
+     0755h              _Crom2PromNext
+     06c8h              _Delayms
+     06bfh              _Delayus
+     0154h              _EEP_VAL_Write
+     00b5h              _EEP_VAL_Write_2
+     00e4h              _EraseEEPROM
+     028eh              _GET_IB
+     02feh              _GET_VB
+     000ch              _ISR_T0
+     0100h              _MAX_VREF_DIG
+     03f2h              _PH_Check
+     0464h              _PH_Run
+     00c4h              _PH_Run_2
+     0481h              _PH_Start
+     00bah              _PH_Start_2
+     0437h              _PH_run_CC
+     00c2h              _PH_run_CC_2
+     0429h              _PH_str_CC
+     0473h              _PH_str_CV
+     041bh              _PH_str_TC
+     00f0h              _ReadEEPROM
+     0106h              _SB_OUT_DIG
+     010ah              _TC_OUT_DIG
+     0138h              _WriteEEPROM
+     00ach              _WriteEEPROM_2
+     06e9h              __DELAYX0
+     06e8h              __DELAYX1
+     06e7h              __DELAYX2
+     06e6h              __DELAYX3
+     06e5h              __DELAYX4
+     06e4h              __DELAYX5
+     06e3h              __DELAYX6
+     0082h              _adc_i_err
+     0085h              _adc_v_err
+     009fh              _builtin_holtek_exp1
+     00a5h              _builtin_holtek_exp2
+     00a1h              _builtin_holtek_floatflag
+     00d8h              _builtin_holtek_ftdecode1
+     00ceh              _builtin_holtek_ftdecode2
+     000dh              _builtin_holtek_ftdiv
+     0006h              _builtin_holtek_ftinf
+     003fh              _builtin_holtek_ftmul
+     009fh              _builtin_holtek_ftnorm
+     0074h              _builtin_holtek_ftol
+     00e0h              _builtin_holtek_ftzero
+     00e2h              _builtin_holtek_ftzero1
+     009ch              _builtin_holtek_mant1
+     00a9h              _builtin_holtek_mant12p
+     00a2h              _builtin_holtek_mant2
+     00a6h              _builtin_holtek_prod
+     00a0h              _builtin_holtek_signs
+     06edh              _builtin_holtek_udivmodhi4_isr00
+     0712h              _builtin_holtek_udivmodsi4_isr00
+     0002h              _builtin_holtek_uitof
+     0090h              _cal_CC
+     008eh              _cal_CV
+     0092h              _cal_TC
+     0526h              _caliber
+     0261h              _initAdc
+     0282h              _initCalb
+     0229h              _initCharger
+     0189h              _initEEPROMset
+     0270h              _initLed
+     026ch              _initRelay
+     027bh              _initTime0
+     0164h              _initial
+     0503h              _ledMode
+     010dh              _main
+     0080h              _millis
+     008dh              _phase
+     008ah              _prs_ib
+     008ch              _prs_phase
+     0088h              _prs_vb
+     0515h              _relayMode
+     0094h              ra
+     0095h              rb
+     0096h              rc
+     0097h              rd
+     0098h              re
+     0099h              rf
+     009ah              rg
+     009bh              rh
+
+     Address            Public by Value
+     0002h              _builtin_holtek_uitof
+     0006h              _builtin_holtek_ftinf
+     000ch              _ISR_T0
+     000dh              _builtin_holtek_ftdiv
+     003fh              _builtin_holtek_ftmul
+     0074h              _builtin_holtek_ftol
+     0080h              _millis
+     0082h              _adc_i_err
+     0085h              _adc_v_err
+     0088h              _prs_vb
+     008ah              _prs_ib
+     008ch              _prs_phase
+     008dh              _phase
+     008eh              _cal_CV
+     0090h              _cal_CC
+     0092h              _cal_TC
+     0094h              ra
+     0095h              rb
+     0096h              rc
+     0097h              rd
+     0098h              re
+     0099h              rf
+     009ah              rg
+     009bh              rh
+     009ch              _builtin_holtek_mant1
+     009fh              _builtin_holtek_ftnorm
+     009fh              _builtin_holtek_exp1
+     00a0h              _builtin_holtek_signs
+     00a1h              _builtin_holtek_floatflag
+     00a2h              _builtin_holtek_mant2
+     00a5h              _builtin_holtek_exp2
+     00a6h              _builtin_holtek_prod
+     00a9h              _builtin_holtek_mant12p
+     00ach              _WriteEEPROM_2
+     00b5h              _EEP_VAL_Write_2
+     00bah              _PH_Start_2
+     00c2h              _PH_run_CC_2
+     00c4h              _PH_Run_2
+     00ceh              _builtin_holtek_ftdecode2
+     00d8h              _builtin_holtek_ftdecode1
+     00e0h              _builtin_holtek_ftzero
+     00e2h              _builtin_holtek_ftzero1
+     00e4h              _EraseEEPROM
+     00f0h              _ReadEEPROM
+     0100h              _MAX_VREF_DIG
+     0102h              _CV_OUT_DIG
+     0104h              _CC_CALIB_DIG
+     0106h              _SB_OUT_DIG
+     0108h              _CC_OUT_DIG
+     010ah              _TC_OUT_DIG
+     010dh              _main
+     0138h              _WriteEEPROM
+     0154h              _EEP_VAL_Write
+     0164h              _initial
+     0189h              _initEEPROMset
+     0229h              _initCharger
+     0261h              _initAdc
+     026ch              _initRelay
+     0270h              _initLed
+     027bh              _initTime0
+     0282h              _initCalb
+     028eh              _GET_IB
+     02feh              _GET_VB
+     036fh              _CK_IN_C_Chn
+     03a3h              _CK_IN_V_Chn
+     03f2h              _PH_Check
+     041bh              _PH_str_TC
+     0429h              _PH_str_CC
+     0437h              _PH_run_CC
+     0464h              _PH_Run
+     0473h              _PH_str_CV
+     0481h              _PH_Start
+     04aeh              _ADCData
+     04d8h              _ADC10Data3
+     0503h              _ledMode
+     0515h              _relayMode
+     0526h              _caliber
+     06bfh              _Delayus
+     06c8h              _Delayms
+     06e3h              __DELAYX6
+     06e4h              __DELAYX5
+     06e5h              __DELAYX4
+     06e6h              __DELAYX3
+     06e7h              __DELAYX2
+     06e8h              __DELAYX1
+     06e9h              __DELAYX0
+     06edh              _builtin_holtek_udivmodhi4_isr00
+     0712h              _builtin_holtek_udivmodsi4_isr00
+     0755h              _Crom2PromNext
+     0756h              _Crom2Prom
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0800h     075ah    91%
+
+RAM Usage Statistics
+     Size      Used     Percentage
+     0080h     0048h    56%
+
+Use Stack Count
+_main: 4
+_CK_IN_C_Chn: 3
+_CK_IN_V_Chn: 3
+_PH_Run: 4
+_PH_Start: 3
+
+Call Tree
+    @dummy
+        _main (0)
+            _initial (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _initLed (1)
+            _initRelay (1)
+            _initCharger (1)
+                __DELAYX (2)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _initTime0 (1)
+            _initEEPROMset (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _ReadEEPROM (2)
+                _builtin_holtek_uitof (2)
+                _builtin_holtek_ftdiv (2)
+                    _builtin_holtek_ftdecode (3)
+            _initAdc (1)
+            _initCalb (1)
+            _Delayms (1)
+                _Delayus (2)
+            _ReadEEPROM (1)
+            _caliber (1)
+                _Delayms (2)
+                    _Delayus (3)
+                _relayMode (2)
+                    _Delayms (3)
+                        _Delayus (4)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _ADC10Data3 (2)
+                    _ADCData (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                _builtin_holtek_uitof (2)
+                _builtin_holtek_ftdiv (2)
+                    _builtin_holtek_ftdecode (3)
+                _GET_VB (2)
+                    _ADC10Data3 (3)
+                        _ADCData (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                    _builtin_holtek_uitof (3)
+                    _builtin_holtek_ftmul (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftdiv (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                _Delayus (2)
+                _GET_IB (2)
+                    _ADC10Data3 (3)
+                        _ADCData (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                    _builtin_holtek_uitof (3)
+                    _builtin_holtek_ftmul (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_ftol (3)
+                        _builtin_holtek_ftdecode (4)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                _EEP_VAL_Write (2)
+                    _WriteEEPROM (3)
+            _relayMode (1)
+                _Delayms (2)
+                    _Delayus (3)
+    _CK_IN_C_Chn
+        _GET_IB (0)
+            _ADC10Data3 (1)
+                _ADCData (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _builtin_holtek_uitof (1)
+            _builtin_holtek_ftmul (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_divmodhi4_isr00 (1)
+    _CK_IN_V_Chn
+        _GET_VB (0)
+            _ADC10Data3 (1)
+                _ADCData (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _builtin_holtek_uitof (1)
+            _builtin_holtek_ftmul (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftdiv (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+        _GET_IB (0)
+            _ADC10Data3 (1)
+                _ADCData (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _builtin_holtek_uitof (1)
+            _builtin_holtek_ftmul (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_divmodhi4_isr00 (1)
+        _builtin_holtek_divmodhi4_isr00 (0)
+    _PH_Run
+        _PH_run_CC (0)
+            _GET_IB (1)
+                _ADC10Data3 (2)
+                    _ADCData (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                _builtin_holtek_uitof (2)
+                _builtin_holtek_ftmul (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_ftol (2)
+                    _builtin_holtek_ftdecode (3)
+                _builtin_holtek_divmodhi4_isr00 (2)
+            _Crom2Prom (1)
+            _Crom2Prom (1)
+            _Delayus (1)
+        _GET_VB (0)
+            _ADC10Data3 (1)
+                _ADCData (2)
+                _builtin_holtek_divmodsi4_isr00 (2)
+            _builtin_holtek_uitof (1)
+            _builtin_holtek_ftmul (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftdiv (1)
+                _builtin_holtek_ftdecode (2)
+            _builtin_holtek_ftol (1)
+                _builtin_holtek_ftdecode (2)
+    _PH_Start
+        _PH_str_CV (0)
+            _Delayms (1)
+                _Delayus (2)
+        _PH_str_TC (0)
+            _Delayms (1)
+                _Delayus (2)
+        _PH_str_CC (0)
+            _Delayms (1)
+                _Delayus (2)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'e:\mainproj\htk_project\ok_ht45\08_07_25_caliber _2v5ck_ext_clib_v4_1\ht-ide3000prj\HT45F5Q-X CHARGER.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
